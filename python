@@ -1,0 +1,14 @@
+# Function to classify a number into negative, zero, or positive
+def classify_number(number):
+    if number < 0:
+        print("The number is negative.")
+    elif number == 0:
+        print("The number is zero.")
+    else:
+        print("The number is positive.")
+
+# Taking input from the user
+user_input = int(input("Enter a number: "))
+
+# Calling the function to classify the input number
+classify_number(user_input)
